@@ -1,10 +1,11 @@
-#include <stdio.h>
 #include "arith_utils.h"
+
+#include <stdio.h>
 
 int main(void) {
     float x, y;
 
-    // TODO: prompt user for two floats
+    printf("Give me two different numbers\n");
     printf("Enter first number: ");
     scanf("%f", &x);
 
